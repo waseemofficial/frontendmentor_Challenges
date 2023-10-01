@@ -1,119 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
-    <title>Testimonials</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Flex-Box-practice</title>
   </head>
+
   <body>
-    <div class="testimonials">
-      <div class="card card--bg-purple">
-        <header class="card__header">
-          <img src="/testimonials-grid-section-main/images/image-daniel.jpg" class="card__img" alt="" />
-          <div>
-            <h3>Daniel </h3>
-            <p>Verified Graduate</p>
-          </div>
-        </header>
-        <p class="card__lead">
-          I received a job offer mid-course, and the subjects I learned were
-          current, if not more so, in the company I joined. I honestly feel I
-          got every penny's worth.
-        </p>
-        <p class="card__quote">
-          "I was an EMT for many years before I joined the bootcamp. I've been
-          looking to make a transition and have heard some people who had an
-          amazing experience here. I signed up for the free intro course and
-          found it incredibly fun! I enrolled shortly thereafter. The next 12
-          weeks was the best - and most grueling - time of my life. Since
-          completing the course, I've successfully switched careers, working as
-          a Software Engineer at a VR startup."
-        </p>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">Flexbox</div>
+        <ul class="nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
       </div>
-
-      <div class="card card--bg-gray-blue">
-        <header class="card__header">
-          <img src="/testimonials-grid-section-main/images/image-jonathan.jpg" class="card__img" alt="" />
-          <div>
-            <h3>Jonathan Walters</h3>
-            <p>Verified Graduate</p>
-          </div>
-        </header>
-        <p class="card__lead">
-          The team was very supportive and kept me motivated
-        </p>
-        <p class="card__quote">
-          "I started as a total newbie with virtually no coding skills. I now
-          work as a mobile engineer for a big company. This was one of the best
-          investments I've made in myself."
-        </p>
+    </nav>
+    <header class="header">
+      <dev class="container">
+        <div>
+          <h1>Flex Box Crash Course</h1>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            It has survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.It was popularised in the 1960s with the release of Letraset
+            sheets containing Lorem Ipsum passages,
+          </p>
+        </div>
+        <img src="https://github.com/waseemofficial/DSA_Python/blob/main/Images/github_logo_blue.png" />
+      </dev>
+    </header>
+    <section class="boxes">
+      <div class="container">
+        <div class="box">
+          <h2><i class="fas fa-arrows-alt-v"></i>Alignment & Space</h2>
+          <p>A more efficient way to lay out, align
+            and distrubute space among items in a container
+          </p>
+        </div>
+        <div class="box">
+          <h2><i class="fas fa-arrows-alt"></i>Tricky Positioning</h2>
+          <p>flexbox usually solves tricky problems including how to position or
+            dynamically resize elements on page
+          </p>
+        </div>
+        <div class="box">
+          <h2><i class="fas fa-mobile"></i>Responsive Design</h2>
+          <p>Flexbox makes building a website layout (and making it responsive!)
+            much, much easier
+          </p>
+        </div>
       </div>
-
-      <div class="card">
-        <header class="card__header">
-          <img src="/testimonials-grid-section-main/images/image-jeanette.jpg" class="card__img" alt="" />
-          <div>
-            <h3>Jeanette Harmon</h3>
-            <p>Verified Graduate</p>
-          </div>
-        </header>
-        <p class="card__lead">An overall wonderful and rewarding experience</p>
-        <p class="card__quote">
-          "Thank you for the wonderful experience! I now have a job I really
-          enjoy, and make a good living while doing something I love."
-        </p>
-      </div>
-
-      <div class="card card--bg-black-blue">
-        <header class="card__header">
-          <img src="/testimonials-grid-section-main/images/image-patrick.jpg" class="card__img" alt="" />
-          <div>
-            <h3>Patrick Abrahms</h3>
-            <p>Verified Graduate</p>
-          </div>
-        </header>
-        <p class="card__lead">
-          Awesome teaching support from TAs who did the bootcamp themselves.
-          Getting guidance from them and learning from their experiences was
-          easy.
-        </p>
-        <p class="card__quote">
-          "The staff seem genuinely concerned about my progress which I find
-          really refreshing. The program gave me the confidence necessary to be
-          able to go out in the world and present myself as a capable junior
-          developer. The standard is above the rest. You will get the personal
-          attention you need from an incredible community of smart and amazing
-          people."
-        </p>
-      </div>
-
-      <div class="card">
-        <header class="card__header">
-          <img src="/testimonials-grid-section-main/images/image-kira.jpg" class="card__img" alt="" />
-          <div>
-            <h3>Kira Whittle</h3>
-            <p>Verified Graduate</p>
-          </div>
-        </header>
-        <p class="card__lead">
-          Such a life-changing experience. Highly recommended!
-        </p>
-        <p class="card__quote">
-          "Before joining the bootcamp, I've never written a line of code. I
-          needed some structure from professionals who can help me learn
-          programming step by step. I was encouraged to enroll by a former
-          student of theirs who can only say wonderful things about the program.
-          The entire curriculum and staff did not disappoint. They were very
-          hands-on and I never had to wait long for assistance. The agile team
-          project, in particular, was outstanding. It took my learning to the
-          next level in a way that no tutorial could ever have. In fact, I've
-          often referred to it during interviews as an example of my developent
-          experience. It certainly helped me land a job as a full-stack
-          developer after receiving multiple offers. 100% recommend!"
-        </p>
-      </div>
-    </div>
+    </section>
   </body>
+
 </html>
